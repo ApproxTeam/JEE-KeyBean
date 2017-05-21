@@ -22,16 +22,11 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>unknown.binary</groupId>
-            <artifactId>hibernate-jpamodelgen-4.3.1.Final</artifactId>
-            <version>SNAPSHOT</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.wildfly.bom</groupId>
-            <artifactId>jboss-javaee-7.0-wildfly-with-tools</artifactId>
-            <version>10.0.0.CR2</version>
-            <type>pom</type>
+                <groupId>org.wildfly.bom</groupId>
+                <artifactId>wildfly-javaee7-with-tools</artifactId>
+                <version>10.1.0.Final</version>
+                <type>pom</type>
+                <scope>import</scope>
         </dependency>
         <dependency>
             <groupId>javax</groupId>
